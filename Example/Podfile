@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'duitku_Example' do
+  pod 'duitku', :path => '../'
+
+  target 'duitku_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
