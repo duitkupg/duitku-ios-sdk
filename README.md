@@ -21,7 +21,7 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 
-  pod 'duitku', '~> 0.2'
+  pod 'duitku', '~> 1.0'
 
 ```
 
