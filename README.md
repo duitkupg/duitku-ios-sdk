@@ -25,6 +25,29 @@ it, simply add the following line to your Podfile:
 
 ```
 
+
+<h3>Server Merchant</h3>
+
+
+```html
+	Example,
+
+	Base Url 		: https://merchant.com/api/
+	Request Transaction 	: https://merchant.com/api/requestTransaction.php
+	Check Transaction	: https://merchant.com/api/checkTransaction.php
+	List Payment		: https://merchant.com/api/listPayment.php
+```
+Download files sample  <a href="https://github.com/duitkupg/duitku-android-sdk/blob/master/Webserver/requestTransaction.php" download="requestTransaction.php">requestTransaction.php</a>&nbsp;&nbsp;<a href="https://github.com/duitkupg/duitku-android-sdk/blob/master/Webserver/checkTransaction.php" download="checkTransaction.php">checkTransaction.php</a>&nbsp;&nbsp;<a href="https://github.com/duitkupg/duitku-android-sdk/blob/master/Webserver/listpayment.php" download="listpayment.php">listPayment.php</a>
+
+
+<h3>Recommended specifications for your application development</h3>
+
+
+```html
+	Development Tool       		 : Xcode > 
+	IOS Version         		 : 3.4.1 > 
+```
+
 ## Author
 
 bamadev, bambangm88@gmail.com
