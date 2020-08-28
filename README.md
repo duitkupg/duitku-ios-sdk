@@ -20,7 +20,9 @@ duitku is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'duitku'
+
+  pod 'duitku', '~> 0.2'
+
 ```
 
 ## Author
