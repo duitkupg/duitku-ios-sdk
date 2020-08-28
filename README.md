@@ -56,7 +56,7 @@ Download files sample  <a href="https://github.com/duitkupg/duitku-android-sdk/b
 	git clone https://github.com/duitkupg/sample-project.git
 ```
 
-Visit <a target="_Blank" href="https://github.com/duitkupg/sample-project" >Github Sample Project</a>
+Visit <a target="_Blank" href="https://github.com/duitkupg/sample-project-ios" >Github Sample Project</a>
 
 
 <h3>Full Step Docs </h3>
