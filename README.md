@@ -45,7 +45,7 @@ Download files sample  <a href="https://github.com/duitkupg/duitku-android-sdk/b
 
 ```html
 	Development Tool       		 : Xcode > 
-	IOS Version         		 : 3.4.1 > 
+	IOS Version         		 : 11.0 > 
 ```
 
 ## Author
