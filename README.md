@@ -44,8 +44,9 @@ Download files sample  <a href="https://github.com/duitkupg/duitku-android-sdk/b
 
 
 ```html
-	Development Tool       		 : Xcode > 
-	IOS Version         		 : 11.0 > 
+	Development Tool       		 : Xcode 9 and above
+	IOS Version         		 : 11 and above
+	Swift Version         		 : Swift 4 and above
 ```
 
 <h3>Sample Project</h3>
