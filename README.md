@@ -9,6 +9,20 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+
+
+
+<h1>duitku-ios-sdk 1.0.0</h1>
+
+
+<b>Welcome to,</b> Duitku IOS SDK registration page, Integrate this SDK to start transaction using duitku in your IOS application.
+
+<div align="center">
+    <img style="align:center;" src="https://github.com/duitkupg/duitku-android-sdk/blob/master/img/transactionflow.png" width="550px"</img> 
+</div>
+
+
+
 ## Requirements
 
 ## Installation
