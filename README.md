@@ -63,6 +63,14 @@ Visit <a target="_Blank" href="https://github.com/duitkupg/sample-project-ios" >
 <h3>Full Step Docs </h3>
 Download  <a target="_blank" href="https://docs.duitku.com/mobile/android/en/#introduction">Duitku Docs</a>
 
+<h3>Reference </h3>
+cocoapods  <a target="_blank" href="https://cocoapods.org/pods/duitku">duitku pod</a>
+
+
+
+
 ## License
 
 duitku is available under the MIT license. See the LICENSE file for more info.
+
+
