@@ -48,9 +48,19 @@ Download files sample  <a href="https://github.com/duitkupg/duitku-android-sdk/b
 	IOS Version         		 : 11.0 > 
 ```
 
-## Author
+<h3>Sample Project</h3>
 
-bamadev, bambangm88@gmail.com
+
+
+```html
+	git clone https://github.com/duitkupg/sample-project.git
+```
+
+Visit <a target="_Blank" href="https://github.com/duitkupg/sample-project" >Github Sample Project</a>
+
+
+<h3>Full Step Docs </h3>
+Download  <a target="_blank" href="https://docs.duitku.com/mobile/android/en/#introduction">Duitku Docs</a>
 
 ## License
 
