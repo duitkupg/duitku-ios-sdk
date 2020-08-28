@@ -1,0 +1,16 @@
+PODS:
+  - duitku (0.1.0)
+
+DEPENDENCIES:
+  - duitku (from `../`)
+
+EXTERNAL SOURCES:
+  duitku:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  duitku: 8d67d5627b7ba9631a822331a09b22c3244d74fa
+
+PODFILE CHECKSUM: 76e0ffb798bef7021513221d596aa1ef02ce15dd
+
+COCOAPODS: 1.9.3

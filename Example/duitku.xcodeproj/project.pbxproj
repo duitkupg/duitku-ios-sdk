@@ -8,10 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1405E4D6B0B68D872F8A3387 /* Pods_duitku_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BA8166CB9C8D144A3FA8C82 /* Pods_duitku_Example.framework */; };
+		340360E724F36DD600654143 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340360E624F36DD600654143 /* Helper.swift */; };
+		340360E924F36DF800654143 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340360E824F36DF800654143 /* Order.swift */; };
+		340360EB24F36E3D00654143 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340360EA24F36E3D00654143 /* Main.swift */; };
+		340360ED24F36E8900654143 /* itemProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340360EC24F36E8900654143 /* itemProduct.swift */; };
+		340360EF24F36E9F00654143 /* itemProduct.xib in Resources */ = {isa = PBXBuildFile; fileRef = 340360EE24F36E9F00654143 /* itemProduct.xib */; };
+		340360F124F3708B00654143 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340360F024F3708B00654143 /* Images.xcassets */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		855BD1105F28734F0D2E4076 /* Pods_duitku_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516093A55CE94AE859EA724D /* Pods_duitku_Tests.framework */; };
@@ -29,24 +34,29 @@
 
 /* Begin PBXFileReference section */
 		09EF9B780A964CB7853099F9 /* Pods-duitku_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duitku_Example.debug.xcconfig"; path = "Target Support Files/Pods-duitku_Example/Pods-duitku_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		340360E624F36DD600654143 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		340360E824F36DF800654143 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		340360EA24F36E3D00654143 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		340360EC24F36E8900654143 /* itemProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemProduct.swift; sourceTree = "<group>"; };
+		340360EE24F36E9F00654143 /* itemProduct.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = itemProduct.xib; sourceTree = "<group>"; };
+		340360F024F3708B00654143 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../../DuitkuSDkIos/Example/DuitkuSDkIos/Images.xcassets; sourceTree = "<group>"; };
 		37CA46F205479FEC5241B1CF /* Pods-duitku_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duitku_Tests.debug.xcconfig"; path = "Target Support Files/Pods-duitku_Tests/Pods-duitku_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4BA8166CB9C8D144A3FA8C82 /* Pods_duitku_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_duitku_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		516093A55CE94AE859EA724D /* Pods_duitku_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_duitku_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		570552B951E0006AE9DA97DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* duitku_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = duitku_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		570552B951E0006AE9DA97DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* duitku_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = duitku_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8835B09C094D6A91DDBD4C3B /* duitku.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = duitku.podspec; path = ../duitku.podspec; sourceTree = "<group>"; };
+		8835B09C094D6A91DDBD4C3B /* duitku.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = duitku.podspec; path = ../duitku.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A3648064A35026EC69DCED7 /* Pods-duitku_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duitku_Tests.release.xcconfig"; path = "Target Support Files/Pods-duitku_Tests/Pods-duitku_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B212F0F212A808BF58291567 /* Pods-duitku_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-duitku_Example.release.xcconfig"; path = "Target Support Files/Pods-duitku_Example/Pods-duitku_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B2F5E8CCB737B08C3C5D6AEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B2F5E8CCB737B08C3C5D6AEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +94,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* duitku_Example.app */,
+				607FACD01AFB9204008FA782 /* demo.app */,
 				607FACE51AFB9204008FA782 /* duitku_Tests.xctest */,
 			);
 			name = Products;
@@ -93,12 +103,17 @@
 		607FACD21AFB9204008FA782 /* Example for duitku */ = {
 			isa = PBXGroup;
 			children = (
+				340360F024F3708B00654143 /* Images.xcassets */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				340360E624F36DD600654143 /* Helper.swift */,
+				340360E824F36DF800654143 /* Order.swift */,
+				340360EA24F36E3D00654143 /* Main.swift */,
+				340360EC24F36E8900654143 /* itemProduct.swift */,
+				340360EE24F36E9F00654143 /* itemProduct.xib */,
 			);
 			name = "Example for duitku";
 			path = duitku;
@@ -156,16 +171,15 @@
 				37CA46F205479FEC5241B1CF /* Pods-duitku_Tests.debug.xcconfig */,
 				9A3648064A35026EC69DCED7 /* Pods-duitku_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* duitku_Example */ = {
+		607FACCF1AFB9204008FA782 /* duitku_demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "duitku_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "duitku_demo" */;
 			buildPhases = (
 				9DE0E6B38C3351CDA45678E7 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -177,9 +191,9 @@
 			);
 			dependencies = (
 			);
-			name = duitku_Example;
+			name = duitku_demo;
 			productName = duitku;
-			productReference = 607FACD01AFB9204008FA782 /* duitku_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		607FACE41AFB9204008FA782 /* duitku_Tests */ = {
@@ -227,6 +241,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -235,7 +250,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* duitku_Example */,
+				607FACCF1AFB9204008FA782 /* duitku_demo */,
 				607FACE41AFB9204008FA782 /* duitku_Tests */,
 			);
 		};
@@ -246,9 +261,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				340360EF24F36E9F00654143 /* itemProduct.xib in Resources */,
+				340360F124F3708B00654143 /* Images.xcassets in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,8 +347,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				340360EB24F36E3D00654143 /* Main.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				340360E924F36DF800654143 /* Order.swift in Sources */,
+				340360ED24F36E8900654143 /* itemProduct.swift in Sources */,
+				340360E724F36DD600654143 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +369,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* duitku_Example */;
+			target = 607FACCF1AFB9204008FA782 /* duitku_demo */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -419,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -479,10 +499,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = duitku/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.duitku-demo";
+				PRODUCT_NAME = demo;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -494,10 +515,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = duitku/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.duitku-demo";
+				PRODUCT_NAME = demo;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -555,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "duitku_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "duitku_demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
