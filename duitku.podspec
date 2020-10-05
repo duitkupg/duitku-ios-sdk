@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'duitku'
-  s.version          = '0.2.0'
-  s.summary          = 'duitku sdk is lib for integration payment on your apps ios.'
+  s.version          = '0.3.0'
+  s.summary          = 'duitku sdk is lib for integration payment on your ios apps.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'duitku sdk is lib for simple integration payment on your apps ios'
+  s.description      = 'duitku sdk is lib for simple integration payment on your ios app'
 
   s.homepage         = 'https://github.com/duitkupg/duitku-ios-sdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
